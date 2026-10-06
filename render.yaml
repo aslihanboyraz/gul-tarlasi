@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: gul-tarlasi
+    runtime: static
+    buildCommand: echo "Statik site, derleme yok"
+    staticPublishPath: .
